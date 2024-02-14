@@ -35,5 +35,11 @@ namespace TestWebAPI.Controllers
         {
 
         }
+
+        [HttpPost(Name = "SubmitWeather")]
+        public void TestWeather()
+        {
+
+        }
     }
 }
