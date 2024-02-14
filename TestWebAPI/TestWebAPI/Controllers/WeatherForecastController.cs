@@ -29,5 +29,11 @@ namespace TestWebAPI.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost(Name="SubmitWeather")]
+        public void SubmitWeather()
+        {
+
+        }
     }
 }
