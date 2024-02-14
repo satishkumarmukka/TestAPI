@@ -33,7 +33,9 @@ namespace TestWebAPI.Controllers
         [HttpPost(Name="SubmitWeather")]
         public void SubmitWeather()
         {
+            //testing
 
+            Dictionary<string, string> map = new Dictionary<string, string>();
         }
 
         [HttpPost(Name = "SubmitWeather")]
